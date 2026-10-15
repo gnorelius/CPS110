@@ -72,13 +72,13 @@ Here is my new profile picture. I am on the right (<img width="1179" height="156
 </html>
 
 # My Task List #
-[x] Create a basic website and upload to Visual Studio Code
+- [x] Create a basic website and upload to Visual Studio Code
 
-[x] Change some of the CSS and make it look how I want
+- [x] Change some of the CSS and make it look how I want
 
-[ ] Become versed in writing code
+- [ ] Become versed in writing code
 
-[ ] Create a fully interactive website
+- [ ] Create a fully interactive website
 
 
 
