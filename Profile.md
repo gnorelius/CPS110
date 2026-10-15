@@ -19,12 +19,12 @@
 - [This is a link to get started with Visual Studio Code, which is what I currently use to build my website](https://code.visualstudio.com)
 
 ### A look at the coding of my current project ###
-![Here is a look at some coding of my current project](<img width="901" height="684" alt="Screenshot 2026-10-15 at 8 56 13 AM" src="https://github.com/user-attachments/assets/425ea4ad-9978-401c-9254-e05283d6bd3f" />
+Here is a look at some coding of my current project (<img width="901" height="684" alt="Screenshot 2026-10-15 at 8 56 13 AM" src="https://github.com/user-attachments/assets/425ea4ad-9978-401c-9254-e05283d6bd3f" />
 )
 
 ### New Profile Picture!
 
-![Here is my new profile picture. I am on the right](<img width="1179" height="1560" alt="IMG_2655" src="https://github.com/user-attachments/assets/1adbcd62-ddb7-487a-9fdf-2352856a2031" />
+Here is my new profile picture. I am on the right (<img width="1179" height="1560" alt="IMG_2655" src="https://github.com/user-attachments/assets/1adbcd62-ddb7-487a-9fdf-2352856a2031" />
 )
 
 ## Quote About Learning ##
