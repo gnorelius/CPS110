@@ -57,7 +57,7 @@ body {
     align-items: center;
     padding: 60px 5%;
 
-    /* Sunset background image */
+    /* background image */
     background-image:
         linear-gradient(
             90deg,
@@ -65,7 +65,7 @@ body {
             rgba(250, 248, 241, 0.65) 42%,
             rgba(0, 0, 0, 0.05)
         ),
-        url("../Photos/flowers.jpg");
+        url("../Photos/flowers.jpg"); alt:"Background image of flowers from openverse";
 
     background-size: cover;
     background-position: center;
