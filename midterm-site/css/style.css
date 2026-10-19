@@ -1,0 +1,328 @@
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #faf8f1;
+    color: #202820;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #647568;
+    min-height: 65px;
+    padding: 15px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 38px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    border-bottom: 2px solid white;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    padding: 60px 5%;
+
+    /* Sunset background image */
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(250, 248, 241, 0.95),
+            rgba(250, 248, 241, 0.65) 42%,
+            rgba(0, 0, 0, 0.05)
+        ),
+        url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=2000&q=85");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: clamp(42px, 6vw, 76px);
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.9;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.hero-button {
+    display: inline-block;
+    color: #26342a;
+    border: 1px solid #647568;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #647568;
+    color: white;
+}
+
+/* Friends Section */
+.friends-section {
+    padding: 45px 8% 30px;
+    text-align: center;
+}
+
+.friends-section h2 {
+    font-size: clamp(30px, 4vw, 48px);
+    margin-bottom: 12px;
+}
+
+.section-subtitle {
+    color: #657366;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Six Friend Buttons */
+.friends-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.friend-card {
+    min-height: 155px;
+    padding: 25px;
+    border-radius: 35% 25% 30% 20% / 25% 30% 20% 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #202820;
+    font-size: 24px;
+    text-decoration: none;
+
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.friend-card:hover {
+    transform: translateY(-7px) rotate(-1deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
+}
+
+.arrow {
+    font-size: 30px;
+}
+
+/* Pastel Colors */
+.pink {
+    background-color: #f1d0d0;
+}
+
+.green {
+    background-color: #d0dac9;
+}
+
+.purple {
+    background-color: #d9d0ed;
+}
+
+.blue {
+    background-color: #c5d9ed;
+}
+
+.yellow {
+    background-color: #f5dfaa;
+}
+
+.peach {
+    background-color: #f4cbbb;
+}
+
+/* Bottom Decoration */
+.bottom-heart {
+    color: #647568;
+    font-size: 30px;
+    margin: 35px 0 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #647568;
+    color: white;
+    padding: 22px;
+    font-size: 14px;
+}
+
+/* Mobile Layout */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .hero {
+        min-height: 400px;
+        background-position: center;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .friends-section {
+        padding: 35px 5%;
+    }
+
+    .friends-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .friend-card {
+        min-height: 125px;
+        font-size: 19px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    .friends-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =================================
+   INDIVIDUAL FRIEND PAGES
+================================= */
+
+.friend-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.friend-page h1 {
+    font-size: clamp(34px, 5vw, 52px);
+    margin-bottom: 12px;
+}
+
+.friend-photo-frame {
+    max-width: 650px;
+    height: 400px;
+    margin: 35px auto;
+    padding: 12px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transform: rotate(-1deg);
+}
+
+.friend-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.friend-info {
+    max-width: 700px;
+    margin: 45px auto;
+    line-height: 1.9;
+}
+
+.friend-info h2,
+.memory-card h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.friend-info p,
+.memory-card p {
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.memory-card {
+    max-width: 700px;
+    margin: 35px auto;
+    padding: 35px;
+    border-radius: 25px;
+}
+
+.back-button {
+    margin: 20px 0 35px;
+}
+
+/* Friend page photo on smaller screens */
+@media (max-width: 700px) {
+    .friend-page {
+        padding: 35px 18px;
+    }
+
+    .friend-photo-frame {
+        height: 280px;
+        margin: 25px auto;
+    }
+
+    .memory-card {
+        padding: 25px 20px;
+    }
+
+    .friend-info h2,
+    .memory-card h2 {
+        font-size: 24px;
+    }
+}
