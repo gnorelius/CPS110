@@ -12,7 +12,7 @@
     }
 
     header {
-      background: #174a2c;
+      background: #1c4a9a;
       color: white;
       padding: 20px 8%;
       display: flex;
@@ -47,8 +47,8 @@
 
     .hero {
       background:
-        linear-gradient(rgba(23, 74, 44, 0.9), rgba(23, 74, 44, 0.85)),
-        linear-gradient(135deg, #2d6a42, #8aa58c);
+        linear-gradient(rgba(23, 74, 44, 0.9), rgba(12, 26, 177, 0.85)),
+        linear-gradient(135deg, #1c4a9a, #468aff);
       color: white;
       text-align: center;
       padding: 100px 20px;
@@ -71,7 +71,7 @@
 
     section h2 {
       text-align: center;
-      color: #174a2c;
+      color: #1c4a9a;
       font-size: 2.3rem;
       margin-bottom: 40px;
     }
@@ -95,7 +95,7 @@
       background: white;
       padding: 30px;
       border-radius: 10px;
-      border-top: 5px solid #174a2c;
+      border-top: 5px solid #1c4a9a;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
       transition: transform 0.2s, box-shadow 0.2s;
     }
@@ -106,7 +106,7 @@
     }
 
     .program-card h3 {
-      color: #174a2c;
+      color: #1c4a9a ;
       margin-bottom: 12px;
       font-size: 1.3rem;
     }
@@ -117,7 +117,7 @@
     }
 
     .program-card a {
-      color: #174a2c;
+      color: #1c4a9a;
       font-weight: bold;
       text-decoration: none;
     }
@@ -150,7 +150,7 @@
     }
 
     .experience {
-      background: #174a2c;
+      background: #1c4a9a;
       color: white;
     }
 
@@ -199,7 +199,7 @@
     }
 
     .resource-box h3 {
-      color: #174a2c;
+      color: #1c4a9a;
       margin-bottom: 12px;
     }
 
